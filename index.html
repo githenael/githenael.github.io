@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!--Imports a model-viewer JavaScript code -->
+  <!--It helps to handle how the 3D Object would be displayed -->
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
   <title>Global</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -48,6 +52,10 @@
           <li class="l-section section section--is-active">
             <div class="intro">
               <div class="intro--banner">
+                <div id="aSide">
+                  <model-viewer src="assets/3dobjects/scene.gltf" alt="Twisted Ball" auto-rotate camera-controls ar ios-src="assets/3dobjects/scene.gltf"></model-viewer>
+        
+                </div>
                 <h1>Nathenael's site is<br>under construction<br></h1>
                 <button class="cta">Hire Us
                   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
