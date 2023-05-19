@@ -1,0 +1,6 @@
+#my3dModel {
+    display: block;  /* Ensures the model is treated as a block-level element */
+    margin: 0 auto;  /* Horizontal centering */
+    width: 80vw;     /* Adjust as needed */
+    height: 80vh;    /* Adjust as needed */
+}
