@@ -1,0 +1,11 @@
+Model Information:
+* title:	N (Alphabet Lore)
+* source:	https://sketchfab.com/3d-models/n-alphabet-lore-b73978283c0348f4a96ccd67dc223934
+* author:	aniandronic (https://sketchfab.com/aniandronic)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "N (Alphabet Lore)" (https://sketchfab.com/3d-models/n-alphabet-lore-b73978283c0348f4a96ccd67dc223934) by aniandronic (https://sketchfab.com/aniandronic) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
