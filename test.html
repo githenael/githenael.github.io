@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!--Imports a model-viewer JavaScript code -->
+        <!--It helps to handle how the 3D Object would be displayed -->
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+        <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
         <title>My Portfolio</title>
         <style>
             /* Add some basic CSS styling here */
         </style>
     </head>
     <body>
+        <model-viewer src="assets/3dobjects/myName/myName.gltf" alt="myName" auto-rotate camera-controls ar ios-src="assets/3dobjects/myName/myName.gltf"></model-viewer>
         <header>
             <h1>Welcome to My Portfolio</h1>
             <nav>
