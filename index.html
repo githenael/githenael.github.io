@@ -10,11 +10,13 @@
                 const modelViewer = document.querySelector('model-viewer');
         
                 modelViewer.addEventListener('mouseenter', () => {
-                    modelViewer.setAttribute('auto-rotate', '');
+                    modelViewer.removeAttribute('auto-rotate');
+                    modelViewer.removeAttribute('camera-controls');
                 });
         
                 modelViewer.addEventListener('mouseleave', () => {
-                    modelViewer.removeAttribute('auto-rotate');
+                    modelViewer.setAttribute('auto-rotate', '');
+                    modelViewer.setAttribute('camera-controls', '');
                 });
             });
         </script>
@@ -27,23 +29,23 @@
                 <ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden;">
                     <li style="float: left;"><a href="index.html">
                         <model-viewer id="nathenaelCom" src="assets/3dobjects/nathenaelCom/nathenaelCom.gltf" alt="nathenaelCom" min-field-of-view="20deg" 
-            max-field-of-view="20deg" camera-orbit="0deg 90deg 10m" camera-controls auto-rotate-delay="9999999" ar ios-src="assets/3dobjects/nathenaelCom/nathenaelCom.gltf"></model-viewer>
+            max-field-of-view="20deg" camera-orbit="0deg 90deg 10m" camera-controls auto-rotate ar ios-src="assets/3dobjects/nathenaelCom/nathenaelCom.gltf"></model-viewer>
                         </a></li>
                     <li style="float: left;"><a href="tech.html"><model-viewer id="tech" src="assets/3dobjects/tech/tech.gltf" alt="tech" min-field-of-view="20deg" 
-            max-field-of-view="20deg" camera-orbit="0deg 90deg 10m" camera-controls auto-rotate-delay="9999999" ar ios-src="assets/3dobjects/tech/tech.gltf"></model-viewer></a></li>
+            max-field-of-view="20deg" camera-orbit="0deg 90deg 10m" camera-controls auto-rotate ar ios-src="assets/3dobjects/tech/tech.gltf"></model-viewer></a></li>
                     <li style="float: left;"><a href="dj.html"><model-viewer id="dj" src="assets/3dobjects/dj/dj.gltf" alt="dj" min-field-of-view="20deg" 
-            max-field-of-view="20deg" camera-orbit="0deg 90deg 10m" camera-controls auto-rotate-delay="9999999" ar ios-src="assets/3dobjects/dj/dj.gltf"></model-viewer></a></li>
+            max-field-of-view="20deg" camera-orbit="0deg 90deg 10m" camera-controls auto-rotate ar ios-src="assets/3dobjects/dj/dj.gltf"></model-viewer></a></li>
                     <li style="float: left;"><a href="photos.html"><model-viewer id="photos" src="assets/3dobjects/photos/photos.gltf" alt="photos" min-field-of-view="20deg" 
-            max-field-of-view="20deg" camera-orbit="0deg 90deg 10m" camera-controls auto-rotate-delay="9999999" ar ios-src="assets/3dobjects/photos/photos.gltf"></model-viewer></a></li>
+            max-field-of-view="20deg" camera-orbit="0deg 90deg 10m" camera-controls auto-rotate ar ios-src="assets/3dobjects/photos/photos.gltf"></model-viewer></a></li>
                     <li style="float: left;"><a href="contact.html"><model-viewer id="contact" src="assets/3dobjects/contact/contact.gltf" alt="contact" min-field-of-view="20deg" 
-            max-field-of-view="20deg" camera-orbit="0deg 90deg 10m" camera-controls auto-rotate-delay="9999999" ar ios-src="assets/3dobjects/contact/contact.gltf"></model-viewer></a></li>
+            max-field-of-view="20deg" camera-orbit="0deg 90deg 10m" camera-controls auto-rotate ar ios-src="assets/3dobjects/contact/contact.gltf"></model-viewer></a></li>
                 </ul>
             </nav>
         </header>
         
         <main>
             <model-viewer id="greenName" src="assets/3dobjects/greenName/greenName.gltf" alt="greenName" min-camera-orbit="2m" 
-            max-camera-orbit="2m" camera-controls auto-rotate-delay="9999999" ar ios-src="assets/3dobjects/greenName/myName.gltf"></model-viewer>
+            max-camera-orbit="2m" camera-controls auto-rotate ar ios-src="assets/3dobjects/greenName/myName.gltf"></model-viewer>
         </main>
 
         <footer>
