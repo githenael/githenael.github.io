@@ -1,3 +1,6 @@
+html {
+    color:chocolate;
+}
 #greenName {
     display: block;  /* Ensures the model is treated as a block-level element */
     margin: 0 auto;  /* Horizontal centering */
