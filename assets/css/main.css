@@ -10,21 +10,23 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: transparent; 
+    background-color: transparent; /* This line ensures the background color is transparent */
 }
+
 li {
     float: left;
-    border: none;
+    border: none; /* This line ensures there is no border around list items */
 }
+
 li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border: none;
+    border: none; /* This line ensures there is no border around links */
 }
-/* Change the link color to #111 (black) on hover */
+
 li a:hover {
     background-color: #111;
 }
