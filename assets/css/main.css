@@ -25,8 +25,9 @@ li a {
     display: block;
     color: white;
     width: 80%;
+    align-items: center;
     text-align: center;
-    padding: 6px 6px;
+    padding: 0px 0px;
     text-decoration: none;
     border: none; /* This line ensures there is no border around links */
 }
