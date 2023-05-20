@@ -1,5 +1,5 @@
 html {
-    color:chocolate;
+    background-color:chocolate;
 }
 #greenName {
     display: block;  /* Ensures the model is treated as a block-level element */
