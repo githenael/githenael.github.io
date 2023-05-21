@@ -1,11 +1,9 @@
 html {
     background-color:chocolate;
 }
-#greenName {
-    display: block;  /* Ensures the model is treated as a block-level element */
+
+nav {
     margin: 0 auto;  /* Horizontal centering */
-    width: 100vw;     /* Adjust as needed */
-    height: 80vh;    /* Adjust as needed */
 }
 
 ul {
@@ -37,10 +35,14 @@ li a:hover {
     background-color: #111;
 }
 
+#greenName {
+    display: block;  /* Ensures the model is treated as a block-level element */
+    margin: 0 auto;  /* Horizontal centering */
+    width: 100vw;     /* Adjust as needed */
+    height: 80vh;    /* Adjust as needed */
+}
+
 footer {
     align-items: center;
 }
 
-nav {
-    margin: 0 auto;  /* Horizontal centering */
-}
