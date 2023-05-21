@@ -10,6 +10,7 @@ html {
 
 ul {
     list-style-type: none;
+    align-items: center;
     margin: 0;
     padding: 0;
     overflow: hidden;
