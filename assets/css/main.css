@@ -17,7 +17,6 @@ ul {
 }
 
 li {
-    float: left;
     border: none; /* This line ensures there is no border around list items */
 }
 
