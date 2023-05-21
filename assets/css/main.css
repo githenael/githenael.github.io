@@ -18,13 +18,12 @@ ul {
 
 li {
     border: none; /* This line ensures there is no border around list items */
-    width: 21%;
+    width: 19%;
 }
 
 li a {
     display: block;
     color: white;
-    width: 50%;
     align-items: center;
     text-align: center;
     padding: 0px 0px;
