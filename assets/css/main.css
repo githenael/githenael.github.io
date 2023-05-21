@@ -18,6 +18,7 @@ ul {
 
 li {
     border: none; /* This line ensures there is no border around list items */
+    width: 10%;
 }
 
 li a {
