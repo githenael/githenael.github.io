@@ -39,6 +39,7 @@ li a:hover {
 main model-viewer {
     display: block;  /* Ensures the model is treated as a block-level element */
     align-items: center;
+    padding: 20%;
     width: 100%;    
     margin: 0 auto;  /* Horizontal centering */
 }
