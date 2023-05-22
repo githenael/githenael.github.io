@@ -5,17 +5,44 @@
         <!--It helps to handle how the 3D Object would be displayed -->
         <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
         <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
-        <title>tech</title>
+        <title>TECH</title>
         <link rel="stylesheet" href="assets/css/main.css">
     </head>
     <body>
         <header>
-            
+            <nav>
+                <ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden;">
+                    <li style="float: left;">
+                        <a href="index.html">
+                            <model-viewer id="nathenaelCom" src="assets/3dobjects/nathenaelCom/nathenaelCom.gltf" alt="nathenaelCom" interaction-prompt="none" auto-rotate auto-rotate-delay="2" rotation-per-second="90deg" field-of-view="25deg" ios-src="assets/3dobjects/nathenaelCom/nathenaelCom.gltf"></model-viewer>
+                        </a>
+                    </li>
+                    <li style="float: left;">
+                        <a href="tech.html">
+                            <model-viewer id="tech" src="assets/3dobjects/tech/tech.gltf" alt="tech" interaction-prompt="none" auto-rotate auto-rotate-delay="2" rotation-per-second="90deg" field-of-view="9deg" ios-src="assets/3dobjects/tech/tech.gltf"></model-viewer>
+                        </a>
+                    </li>
+                    <li style="float: left;">
+                        <a href="dj.html">
+                            <model-viewer id="dj" src="assets/3dobjects/dj/dj.gltf" alt="dj" interaction-prompt="none" auto-rotate auto-rotate-delay="2" rotation-per-second="90deg" field-of-view="6deg" ios-src="assets/3dobjects/dj/dj.gltf"></model-viewer>
+                        </a>
+                    </li>
+                    <li style="float: left;">
+                        <a href="photos.html">
+                            <model-viewer id="photos" src="assets/3dobjects/photos/photos.gltf" alt="photos" interaction-prompt="none" auto-rotate auto-rotate-delay="2" rotation-per-second="90deg" field-of-view="27deg" ios-src="assets/3dobjects/photos/photos.gltf"></model-viewer>
+                        </a>
+                    </li>
+                    <li style="float: left;">
+                        <a href="contact.html">
+                            <model-viewer id="contact" src="assets/3dobjects/contact/contact.gltf" alt="contact" interaction-prompt="none" auto-rotate auto-rotate-delay="2" rotation-per-second="90deg" field-of-view="27deg" ios-src="assets/3dobjects/contact/contact.gltf"></model-viewer>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </header>
         
         <main>
-           <a href="tech.html"><model-viewer id="tech" src="assets/3dobjects/tech/tech.gltf" alt="tech" min-field-of-view="20deg" 
-            max-field-of-view="20deg" camera-orbit="0deg 90deg 10m" auto-rotate camera-controls ar ios-src="assets/3dobjects/tech/tech.gltf">
+            <model-viewer src="assets/3dobjects/underConstruction/underConstruction.gltf" alt="underConstruction" interaction-prompt="none" auto-rotate auto-rotate-delay="2" rotation-per-second="90deg" field-of-view="30deg" \ios-src="assets/3dobjects/underConstruction/underConstruction.gltf"></model-viewer>
         </main>
 
         <footer>
