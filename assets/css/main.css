@@ -34,7 +34,8 @@ li a {
 
 #whiteName {
     display: block;  /* Ensures the model is treated as a block-level element */
-    height: 500px;
+    width: 1004px;
+    height: 600px;
     margin: 0 auto;  /* Horizontal centering */
 }
 
