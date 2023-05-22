@@ -36,9 +36,9 @@ li a:hover {
     background-color: #111;
 }
 
-main model-viewer {
+#whiteName {
     display: block;  /* Ensures the model is treated as a block-level element */
-    align-items: center;
+    height: 500px;
     margin: 0 auto;  /* Horizontal centering */
 }
 
