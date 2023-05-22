@@ -48,5 +48,7 @@ main p {
 
 footer {
     align-items: center;
+    color: white;
+    margin: 0 auto;
 }
 
