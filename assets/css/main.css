@@ -32,7 +32,7 @@ li a {
     border: none; /* This line ensures there is no border around links */
 }
 
-#whiteName {
+main model-viewer {
     display: block;  /* Ensures the model is treated as a block-level element */
     width: 900px;
     height: 500px;
