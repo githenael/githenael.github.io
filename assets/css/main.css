@@ -35,7 +35,7 @@ li a:hover {
     background-color: #111;
 }
 
-#greenName {
+#whiteName {
     display: block;  /* Ensures the model is treated as a block-level element */
     margin: 0 auto;  /* Horizontal centering */
     width: 100vw;     /* Adjust as needed */
