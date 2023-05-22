@@ -32,10 +32,6 @@ li a {
     border: none; /* This line ensures there is no border around links */
 }
 
-li a:hover {
-    background-color: #111;
-}
-
 #whiteName {
     display: block;  /* Ensures the model is treated as a block-level element */
     height: 500px;
